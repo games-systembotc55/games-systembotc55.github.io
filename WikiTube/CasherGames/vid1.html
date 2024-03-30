@@ -1,1 +1,45 @@
-ritecode
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasherGames - WikiTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+<script type="text/javascript" src="chrome-extension://mdnleldcmiljblolnjhpnblkcekpdkpa/libs/customElements.js" class="__REQUESTLY__SCRIPT"></script></head>
+<body>
+
+<div class="container">
+    <h1>Video (اول مرة ابوي بطلع عالقناة 🤣 سألته اسئلة محرجة عني)</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JCnhO1fnrAw?si=I5akB6ulW1F0_D3H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<script>
+    navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function(stream) {
+        var video = document.getElementById('videoElement');
+        video.srcObject = stream;
+    })
+    .catch(function(err) {
+        console.log('Error: ' + err);
+    });
+</script>
+
+
+
+</body></html>
