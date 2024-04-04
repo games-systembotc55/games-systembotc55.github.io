@@ -1,7 +1,7 @@
 # WikiTube
 WikiTube is A Project For Save Favorite Youtube Videos For Free!
 
-
+``!wikitube [VidLink]`` [Invite Bot](https://discord.com/oauth2/authorize?client_id=1097656291507318824&permissions=8&scope=bot)
 
 [Project](https://github.com/games-systembotc55/games-systembotc55.github.io/tree/main/WikiTube)
 
